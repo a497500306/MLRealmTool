@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3189D0A9248A0F1200359B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0A8248A0F1200359B89 /* AppDelegate.swift */; };
+		3189D0AB248A0F1200359B89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0AA248A0F1200359B89 /* SceneDelegate.swift */; };
+		3189D0AD248A0F1200359B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0AC248A0F1200359B89 /* ViewController.swift */; };
+		3189D0B0248A0F1200359B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3189D0AE248A0F1200359B89 /* Main.storyboard */; };
+		3189D0B2248A0F1300359B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3189D0B1248A0F1300359B89 /* Assets.xcassets */; };
+		3189D0B5248A0F1300359B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3189D0B3248A0F1300359B89 /* LaunchScreen.storyboard */; };
+		3189D0C0248A0F1300359B89 /* MLRealmToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0BF248A0F1300359B89 /* MLRealmToolTests.swift */; };
+		3189D0CB248A0F1400359B89 /* MLRealmToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0CA248A0F1400359B89 /* MLRealmToolUITests.swift */; };
+		3189D0DA248A169400359B89 /* MLRealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0D9248A169400359B89 /* MLRealmConfig.swift */; };
+		3189D0DC248A180C00359B89 /* MLRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0DB248A180C00359B89 /* MLRealm.swift */; };
+		3189D0DE248A1ACD00359B89 /* MLRealmMobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0DD248A1ACD00359B89 /* MLRealmMobject.swift */; };
+		3189D0E0248A1B9700359B89 /* MLRealmProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0DF248A1B9700359B89 /* MLRealmProtocol.swift */; };
+		3189D0E3248A1DCB00359B89 /* MLDogDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3189D0E2248A1DCB00359B89 /* MLDogDB.swift */; };
+		5097262880D30681A468A033 /* Pods_MLRealmTool_MLRealmToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED3262AA57EB20B24124DC6 /* Pods_MLRealmTool_MLRealmToolUITests.framework */; };
+		9CB301251CEAFBC1AA093D5A /* Pods_MLRealmToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B395AAB46B6A62E7C24B9DC0 /* Pods_MLRealmToolTests.framework */; };
+		FFCCB539048FD70082F1D0EF /* Pods_MLRealmTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B851C6D287DE7E2C78E0C60C /* Pods_MLRealmTool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3189D0BC248A0F1300359B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3189D09D248A0F1200359B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3189D0A4248A0F1200359B89;
+			remoteInfo = MLRealmTool;
+		};
+		3189D0C7248A0F1400359B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3189D09D248A0F1200359B89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3189D0A4248A0F1200359B89;
+			remoteInfo = MLRealmTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E9D5E2A291490E23688DA6E /* Pods-MLRealmTool-MLRealmToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRealmTool-MLRealmToolUITests.release.xcconfig"; path = "Target Support Files/Pods-MLRealmTool-MLRealmToolUITests/Pods-MLRealmTool-MLRealmToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3189D0A5248A0F1200359B89 /* MLRealmTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLRealmTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3189D0A8248A0F1200359B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3189D0AA248A0F1200359B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3189D0AC248A0F1200359B89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3189D0AF248A0F1200359B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3189D0B1248A0F1300359B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3189D0B4248A0F1300359B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3189D0B6248A0F1300359B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3189D0BB248A0F1300359B89 /* MLRealmToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLRealmToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3189D0BF248A0F1300359B89 /* MLRealmToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRealmToolTests.swift; sourceTree = "<group>"; };
+		3189D0C1248A0F1300359B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3189D0C6248A0F1400359B89 /* MLRealmToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLRealmToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3189D0CA248A0F1400359B89 /* MLRealmToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRealmToolUITests.swift; sourceTree = "<group>"; };
+		3189D0CC248A0F1400359B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3189D0D9248A169400359B89 /* MLRealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRealmConfig.swift; sourceTree = "<group>"; };
+		3189D0DB248A180C00359B89 /* MLRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRealm.swift; sourceTree = "<group>"; };
+		3189D0DD248A1ACD00359B89 /* MLRealmMobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRealmMobject.swift; sourceTree = "<group>"; };
+		3189D0DF248A1B9700359B89 /* MLRealmProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLRealmProtocol.swift; sourceTree = "<group>"; };
+		3189D0E2248A1DCB00359B89 /* MLDogDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDogDB.swift; sourceTree = "<group>"; };
+		5ED3262AA57EB20B24124DC6 /* Pods_MLRealmTool_MLRealmToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRealmTool_MLRealmToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FD7826B16F4A161B737035 /* Pods-MLRealmToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRealmToolTests.release.xcconfig"; path = "Target Support Files/Pods-MLRealmToolTests/Pods-MLRealmToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AF8DD99EA8F229C32F3BC6A /* Pods-MLRealmTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRealmTool.release.xcconfig"; path = "Target Support Files/Pods-MLRealmTool/Pods-MLRealmTool.release.xcconfig"; sourceTree = "<group>"; };
+		AC53D5EDB2F14FF0B06976D6 /* Pods-MLRealmToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRealmToolTests.debug.xcconfig"; path = "Target Support Files/Pods-MLRealmToolTests/Pods-MLRealmToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B395AAB46B6A62E7C24B9DC0 /* Pods_MLRealmToolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRealmToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B851C6D287DE7E2C78E0C60C /* Pods_MLRealmTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRealmTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE9F607F3A743E81A2A2C40 /* Pods-MLRealmTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRealmTool.debug.xcconfig"; path = "Target Support Files/Pods-MLRealmTool/Pods-MLRealmTool.debug.xcconfig"; sourceTree = "<group>"; };
+		F2C7BFFA467AA54EE755E773 /* Pods-MLRealmTool-MLRealmToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRealmTool-MLRealmToolUITests.debug.xcconfig"; path = "Target Support Files/Pods-MLRealmTool-MLRealmToolUITests/Pods-MLRealmTool-MLRealmToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3189D0A2248A0F1200359B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCCB539048FD70082F1D0EF /* Pods_MLRealmTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3189D0B8248A0F1300359B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB301251CEAFBC1AA093D5A /* Pods_MLRealmToolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3189D0C3248A0F1400359B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5097262880D30681A468A033 /* Pods_MLRealmTool_MLRealmToolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3189D09C248A0F1200359B89 = {
+			isa = PBXGroup;
+			children = (
+				3189D0A7248A0F1200359B89 /* MLRealmTool */,
+				3189D0BE248A0F1300359B89 /* MLRealmToolTests */,
+				3189D0C9248A0F1400359B89 /* MLRealmToolUITests */,
+				3189D0A6248A0F1200359B89 /* Products */,
+				A45F0C58B0E80F5822280EBF /* Pods */,
+				BB735176E5355F72308AEE47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3189D0A6248A0F1200359B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3189D0A5248A0F1200359B89 /* MLRealmTool.app */,
+				3189D0BB248A0F1300359B89 /* MLRealmToolTests.xctest */,
+				3189D0C6248A0F1400359B89 /* MLRealmToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3189D0A7248A0F1200359B89 /* MLRealmTool */ = {
+			isa = PBXGroup;
+			children = (
+				3189D0E1248A1DBB00359B89 /* DB */,
+				3189D0D8248A164500359B89 /* MLRealmTool */,
+				3189D0A8248A0F1200359B89 /* AppDelegate.swift */,
+				3189D0AA248A0F1200359B89 /* SceneDelegate.swift */,
+				3189D0AC248A0F1200359B89 /* ViewController.swift */,
+				3189D0D9248A169400359B89 /* MLRealmConfig.swift */,
+				3189D0AE248A0F1200359B89 /* Main.storyboard */,
+				3189D0B1248A0F1300359B89 /* Assets.xcassets */,
+				3189D0B3248A0F1300359B89 /* LaunchScreen.storyboard */,
+				3189D0B6248A0F1300359B89 /* Info.plist */,
+			);
+			path = MLRealmTool;
+			sourceTree = "<group>";
+		};
+		3189D0BE248A0F1300359B89 /* MLRealmToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				3189D0BF248A0F1300359B89 /* MLRealmToolTests.swift */,
+				3189D0C1248A0F1300359B89 /* Info.plist */,
+			);
+			path = MLRealmToolTests;
+			sourceTree = "<group>";
+		};
+		3189D0C9248A0F1400359B89 /* MLRealmToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3189D0CA248A0F1400359B89 /* MLRealmToolUITests.swift */,
+				3189D0CC248A0F1400359B89 /* Info.plist */,
+			);
+			path = MLRealmToolUITests;
+			sourceTree = "<group>";
+		};
+		3189D0D8248A164500359B89 /* MLRealmTool */ = {
+			isa = PBXGroup;
+			children = (
+				3189D0DB248A180C00359B89 /* MLRealm.swift */,
+				3189D0DD248A1ACD00359B89 /* MLRealmMobject.swift */,
+				3189D0DF248A1B9700359B89 /* MLRealmProtocol.swift */,
+			);
+			name = MLRealmTool;
+			path = ../../MLRealmTool;
+			sourceTree = "<group>";
+		};
+		3189D0E1248A1DBB00359B89 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				3189D0E2248A1DCB00359B89 /* MLDogDB.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		A45F0C58B0E80F5822280EBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEE9F607F3A743E81A2A2C40 /* Pods-MLRealmTool.debug.xcconfig */,
+				9AF8DD99EA8F229C32F3BC6A /* Pods-MLRealmTool.release.xcconfig */,
+				F2C7BFFA467AA54EE755E773 /* Pods-MLRealmTool-MLRealmToolUITests.debug.xcconfig */,
+				2E9D5E2A291490E23688DA6E /* Pods-MLRealmTool-MLRealmToolUITests.release.xcconfig */,
+				AC53D5EDB2F14FF0B06976D6 /* Pods-MLRealmToolTests.debug.xcconfig */,
+				92FD7826B16F4A161B737035 /* Pods-MLRealmToolTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB735176E5355F72308AEE47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B851C6D287DE7E2C78E0C60C /* Pods_MLRealmTool.framework */,
+				5ED3262AA57EB20B24124DC6 /* Pods_MLRealmTool_MLRealmToolUITests.framework */,
+				B395AAB46B6A62E7C24B9DC0 /* Pods_MLRealmToolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3189D0A4248A0F1200359B89 /* MLRealmTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3189D0CF248A0F1400359B89 /* Build configuration list for PBXNativeTarget "MLRealmTool" */;
+			buildPhases = (
+				589ADF792181309B855B19C8 /* [CP] Check Pods Manifest.lock */,
+				3189D0A1248A0F1200359B89 /* Sources */,
+				3189D0A2248A0F1200359B89 /* Frameworks */,
+				3189D0A3248A0F1200359B89 /* Resources */,
+				75CC37015B53A384FEEF0D58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLRealmTool;
+			productName = MLRealmTool;
+			productReference = 3189D0A5248A0F1200359B89 /* MLRealmTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3189D0BA248A0F1300359B89 /* MLRealmToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3189D0D2248A0F1400359B89 /* Build configuration list for PBXNativeTarget "MLRealmToolTests" */;
+			buildPhases = (
+				4C81D4360246BFA298462D7C /* [CP] Check Pods Manifest.lock */,
+				3189D0B7248A0F1300359B89 /* Sources */,
+				3189D0B8248A0F1300359B89 /* Frameworks */,
+				3189D0B9248A0F1300359B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3189D0BD248A0F1300359B89 /* PBXTargetDependency */,
+			);
+			name = MLRealmToolTests;
+			productName = MLRealmToolTests;
+			productReference = 3189D0BB248A0F1300359B89 /* MLRealmToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3189D0C5248A0F1400359B89 /* MLRealmToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3189D0D5248A0F1400359B89 /* Build configuration list for PBXNativeTarget "MLRealmToolUITests" */;
+			buildPhases = (
+				B41C2F7465630EC7FD111D52 /* [CP] Check Pods Manifest.lock */,
+				3189D0C2248A0F1400359B89 /* Sources */,
+				3189D0C3248A0F1400359B89 /* Frameworks */,
+				3189D0C4248A0F1400359B89 /* Resources */,
+				47988403CBA6E98C471EC525 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3189D0C8248A0F1400359B89 /* PBXTargetDependency */,
+			);
+			name = MLRealmToolUITests;
+			productName = MLRealmToolUITests;
+			productReference = 3189D0C6248A0F1400359B89 /* MLRealmToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3189D09D248A0F1200359B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "毛立";
+				TargetAttributes = {
+					3189D0A4248A0F1200359B89 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3189D0BA248A0F1300359B89 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3189D0A4248A0F1200359B89;
+					};
+					3189D0C5248A0F1400359B89 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3189D0A4248A0F1200359B89;
+					};
+				};
+			};
+			buildConfigurationList = 3189D0A0248A0F1200359B89 /* Build configuration list for PBXProject "MLRealmTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3189D09C248A0F1200359B89;
+			productRefGroup = 3189D0A6248A0F1200359B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3189D0A4248A0F1200359B89 /* MLRealmTool */,
+				3189D0BA248A0F1300359B89 /* MLRealmToolTests */,
+				3189D0C5248A0F1400359B89 /* MLRealmToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3189D0A3248A0F1200359B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189D0B5248A0F1300359B89 /* LaunchScreen.storyboard in Resources */,
+				3189D0B2248A0F1300359B89 /* Assets.xcassets in Resources */,
+				3189D0B0248A0F1200359B89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3189D0B9248A0F1300359B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3189D0C4248A0F1400359B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47988403CBA6E98C471EC525 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLRealmTool-MLRealmToolUITests/Pods-MLRealmTool-MLRealmToolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLRealmTool-MLRealmToolUITests/Pods-MLRealmTool-MLRealmToolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLRealmTool-MLRealmToolUITests/Pods-MLRealmTool-MLRealmToolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C81D4360246BFA298462D7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLRealmToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589ADF792181309B855B19C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLRealmTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75CC37015B53A384FEEF0D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLRealmTool/Pods-MLRealmTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLRealmTool/Pods-MLRealmTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLRealmTool/Pods-MLRealmTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B41C2F7465630EC7FD111D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLRealmTool-MLRealmToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3189D0A1248A0F1200359B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189D0E0248A1B9700359B89 /* MLRealmProtocol.swift in Sources */,
+				3189D0E3248A1DCB00359B89 /* MLDogDB.swift in Sources */,
+				3189D0AD248A0F1200359B89 /* ViewController.swift in Sources */,
+				3189D0DC248A180C00359B89 /* MLRealm.swift in Sources */,
+				3189D0A9248A0F1200359B89 /* AppDelegate.swift in Sources */,
+				3189D0DA248A169400359B89 /* MLRealmConfig.swift in Sources */,
+				3189D0AB248A0F1200359B89 /* SceneDelegate.swift in Sources */,
+				3189D0DE248A1ACD00359B89 /* MLRealmMobject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3189D0B7248A0F1300359B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189D0C0248A0F1300359B89 /* MLRealmToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3189D0C2248A0F1400359B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3189D0CB248A0F1400359B89 /* MLRealmToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3189D0BD248A0F1300359B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3189D0A4248A0F1200359B89 /* MLRealmTool */;
+			targetProxy = 3189D0BC248A0F1300359B89 /* PBXContainerItemProxy */;
+		};
+		3189D0C8248A0F1400359B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3189D0A4248A0F1200359B89 /* MLRealmTool */;
+			targetProxy = 3189D0C7248A0F1400359B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3189D0AE248A0F1200359B89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3189D0AF248A0F1200359B89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3189D0B3248A0F1300359B89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3189D0B4248A0F1300359B89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3189D0CD248A0F1400359B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3189D0CE248A0F1400359B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3189D0D0248A0F1400359B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE9F607F3A743E81A2A2C40 /* Pods-MLRealmTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWNW97KJKL;
+				INFOPLIST_FILE = MLRealmTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.realm.tool.MLRealmTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3189D0D1248A0F1400359B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF8DD99EA8F229C32F3BC6A /* Pods-MLRealmTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWNW97KJKL;
+				INFOPLIST_FILE = MLRealmTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.realm.tool.MLRealmTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3189D0D3248A0F1400359B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC53D5EDB2F14FF0B06976D6 /* Pods-MLRealmToolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWNW97KJKL;
+				INFOPLIST_FILE = MLRealmToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.realm.tool.MLRealmToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLRealmTool.app/MLRealmTool";
+			};
+			name = Debug;
+		};
+		3189D0D4248A0F1400359B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FD7826B16F4A161B737035 /* Pods-MLRealmToolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWNW97KJKL;
+				INFOPLIST_FILE = MLRealmToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.realm.tool.MLRealmToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLRealmTool.app/MLRealmTool";
+			};
+			name = Release;
+		};
+		3189D0D6248A0F1400359B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C7BFFA467AA54EE755E773 /* Pods-MLRealmTool-MLRealmToolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWNW97KJKL;
+				INFOPLIST_FILE = MLRealmToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.realm.tool.MLRealmToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLRealmTool;
+			};
+			name = Debug;
+		};
+		3189D0D7248A0F1400359B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9D5E2A291490E23688DA6E /* Pods-MLRealmTool-MLRealmToolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWNW97KJKL;
+				INFOPLIST_FILE = MLRealmToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ml.realm.tool.MLRealmToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLRealmTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3189D0A0248A0F1200359B89 /* Build configuration list for PBXProject "MLRealmTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189D0CD248A0F1400359B89 /* Debug */,
+				3189D0CE248A0F1400359B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3189D0CF248A0F1400359B89 /* Build configuration list for PBXNativeTarget "MLRealmTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189D0D0248A0F1400359B89 /* Debug */,
+				3189D0D1248A0F1400359B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3189D0D2248A0F1400359B89 /* Build configuration list for PBXNativeTarget "MLRealmToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189D0D3248A0F1400359B89 /* Debug */,
+				3189D0D4248A0F1400359B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3189D0D5248A0F1400359B89 /* Build configuration list for PBXNativeTarget "MLRealmToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3189D0D6248A0F1400359B89 /* Debug */,
+				3189D0D7248A0F1400359B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3189D09D248A0F1200359B89 /* Project object */;
+}
